@@ -107,7 +107,7 @@ Open the `.ows` file using Orange Data Mining to view the visual data mining wor
 
 
 ## 📁 Project Structure
-
+```
 ├── data/
 ├── notebooks/
 ├── models/
@@ -115,4 +115,4 @@ Open the `.ows` file using Orange Data Mining to view the visual data mining wor
 ├── train_model.py
 ├── requirements.txt
 └── README.md
-
+```
