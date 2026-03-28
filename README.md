@@ -81,7 +81,7 @@ The project follows a structured data mining and machine learning workflow:
 ### 1. Clone the repository
 
 
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/HafizArslan338/card-fraud-detection-system.git
 
 
 ### 2. Navigate to project folder
