@@ -41,3 +41,78 @@ We compared three models using **10-fold cross-validation**:
 
 The **XGBoost GPU model** achieved the best performance with perfect fraud detection recall.
 The results demonstrate that combining **Business Intelligence tools** with **GPU-accelerated machine learning** can produce highly reliable fraud detection systems for real-world financial applications.
+
+
+## 📂 Dataset
+
+The dataset used in this project is the **Credit Card Fraud Detection Dataset 2023** from Kaggle.
+
+* Total Transactions: 550,000+
+* Fraud Cases: Highly imbalanced dataset
+* Features: 28 PCA-transformed variables (V1–V28)
+* Target Variable: Class (0 = Normal, 1 = Fraud)
+
+Dataset link:
+https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023
+
+---
+
+## 🔄 Project Workflow
+
+The project follows a structured data mining and machine learning workflow:
+
+1. Data loading and preprocessing
+2. Handling class imbalance
+3. Feature analysis using Orange Data Mining
+4. Model training:
+
+   * Logistic Regression
+   * Neural Network (PyTorch)
+   * XGBoost (GPU)
+5. Model evaluation using 10-fold cross-validation
+6. Feature importance analysis
+7. Association rule mining
+8. Performance comparison and model selection
+
+---
+
+## ▶️ How to Run the Project
+
+### 1. Clone the repository
+
+
+git clone https://github.com/your-username/your-repository-name.git
+
+
+### 2. Navigate to project folder
+
+
+cd your-repository-name
+
+
+### 3. Install dependencies
+
+
+pip install -r requirements.txt
+
+
+### 4. Run the training script
+
+
+python train_model.py
+
+### 5. (Optional) Open Orange workflow
+
+Open the `.ows` file using Orange Data Mining to view the visual data mining workflow.
+
+
+## 📁 Project Structure
+
+├── data/
+├── notebooks/
+├── models/
+├── orange_workflow/
+├── train_model.py
+├── requirements.txt
+└── README.md
+
